@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Calculator.Auth"
+			 x:DataType="vm:MainWindowViewModel"
+			 xmlns:vm="using:Calculator.ViewModels"
+			 >
+
+
+	<StackPanel>
+		<TextBlock>Авторизация</TextBlock>
+		<TextBlock>Логин: </TextBlock>
+		<TextBox Text="{Binding AuthVM.Login}"></TextBox>
+		<TextBlock>Пароль: </TextBlock>
+		<TextBox Text="{Binding AuthVM.Password}"></TextBox>
+		<Button Command="{Binding AuthVM.CheckData}">Вывести данные</Button>
+		<TextBlock Text="{Binding AuthVM.Password}"></TextBlock>
+		<UserControl></UserControl>
+		<TextBox></TextBox>
+	</StackPanel>
+	
+</UserControl>
+
