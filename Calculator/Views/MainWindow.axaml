@@ -16,7 +16,6 @@
     </Design.DataContext>
 
 	<StackPanel>
-		<TextBlock> Что то типа главный экран</TextBlock>
 		<UserControl Content="{Binding Us}"></UserControl>
 	</StackPanel>
 

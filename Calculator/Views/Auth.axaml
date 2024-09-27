@@ -9,16 +9,20 @@
 			 >
 
 
-	<StackPanel>
-		<TextBlock>Авторизация</TextBlock>
-		<TextBlock>Логин: </TextBlock>
-		<TextBox Text="{Binding AuthVM.Login}"></TextBox>
-		<TextBlock>Пароль: </TextBlock>
-		<TextBox Text="{Binding AuthVM.Password}"></TextBox>
-		<Button Command="{Binding AuthVM.CheckData}">Вывести данные</Button>
-		<TextBlock Text="{Binding AuthVM.Password}"></TextBlock>
-		<UserControl></UserControl>
-		<TextBox></TextBox>
+	<StackPanel Margin="50" HorizontalAlignment="Center">
+		<TextBlock FontSize="25" FontWeight="Bold" HorizontalAlignment="Center">Авторизация</TextBlock>
+		<StackPanel HorizontalAlignment="Left">
+			<TextBlock>Логин: </TextBlock>
+			<TextBox IsEnabled="{Binding AuthVM.IsVisibleBtnAuth}" Text="{Binding AuthVM.Login}"></TextBox>
+		</StackPanel>
+
+		<StackPanel HorizontalAlignment="Left">
+			<TextBlock >Пароль: </TextBlock>
+		    <TextBox IsEnabled="{Binding AuthVM.IsVisibleBtnAuth}" Text="{Binding AuthVM.Password}"></TextBox>
+		</StackPanel>
+		<UserControl IsVisible="{Binding AuthVM.IsVisibleInputField}" Content="{Binding AuthVM.Capcha}"></UserControl>
+		<TextBox IsVisible="{Binding AuthVM.IsVisibleInputField}" Text="{Binding AuthVM.TbCapcha}"></TextBox>
+		<Button IsEnabled="{Binding AuthVM.IsVisibleBtnAuth}" Command="{Binding AuthVM.CheckData}">Войти</Button>
 	</StackPanel>
 	
 </UserControl>

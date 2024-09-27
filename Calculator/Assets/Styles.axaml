@@ -1,0 +1,42 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+    <Border Padding="20">
+      <!-- Add Controls for Previewer Here -->
+    </Border>
+  </Design.PreviewWith>
+
+  <!-- Add Styles Here -->
+	
+	<Style Selector="Button">
+		<Setter Property="Background" Value="#6C89E5" />
+		<Setter Property="Foreground" Value="#FFFFFF" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="FontFamily" Value="Arial" />
+		<Setter Property="CornerRadius" Value="5" />
+		<Setter Property="Margin" Value="0, 30"/>
+		<Setter Property="Width" Value="500"/>
+	</Style>
+	<!-- Текст -->
+	<Style Selector="TextBlock">
+		<Setter Property="Foreground" Value="#6C89E5"/>
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="FontFamily" Value="Arial"/>
+		
+	</Style>
+	<!-- Поле ввода -->
+	<Style Selector="TextBox">
+		<Setter Property="Foreground" Value="#FFFFFF"/>
+		<Setter Property="Background" Value="#6C89E5" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="FontFamily" Value="Arial" />
+		<Setter Property="CornerRadius" Value="5" />
+		<Setter Property="Width" Value="500"/>
+		<Setter Property="FontStretch" Value="Normal"/>
+		<Setter Property="Margin" Value="0,15"/>
+	</Style>
+	<Style Selector="UserControl">
+		<Setter Property="Background" Value="Black" />
+	</Style>
+	
+</Styles>
