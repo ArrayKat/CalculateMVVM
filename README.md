@@ -6,9 +6,9 @@
 1. Склонировать проект 
 
    1.1. Дома:
-    ```bash
+   ```bash
     git clone http://gogs.ngknn.local:3000/ArrayKat2/CalculateMVVM.git
-    ```
+   ```
    1.2. В колледже:
    ```bash
    git clone http://gogs.ngknn.ru:3000/ArrayKat2/CalculateMVVM.git
