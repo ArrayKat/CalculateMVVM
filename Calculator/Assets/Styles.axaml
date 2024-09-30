@@ -19,6 +19,7 @@
 	</Style>
 	<!-- Текст -->
 	<Style Selector="TextBlock">
+		
 		<Setter Property="Foreground" Value="#6C89E5"/>
 		<Setter Property="FontSize" Value="20"/>
 		<Setter Property="FontFamily" Value="Arial"/>
@@ -36,7 +37,7 @@
 		<Setter Property="Margin" Value="0,15"/>
 	</Style>
 	<Style Selector="UserControl">
-		<Setter Property="Background" Value="Black" />
+		
 	</Style>
 	
 </Styles>

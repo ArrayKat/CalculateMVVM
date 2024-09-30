@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\",
+  "WorkspaceRootPath": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculator\\calculator\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculatemvvm\\calculator\\views\\calculate.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\views\\calculate.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculator\\calculator\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculator\\calculator\\views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculatemvvm\\calculator\\views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculator\\calculator\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculatemvvm\\calculator\\assets\\styles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\assets\\styles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculatemvvm\\calculator\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculatemvvm\\calculator\\viewmodels\\calculateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\viewmodels\\calculateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\calculatemvvm\\calculator\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA15D89-DAE7-433F-9FDA-72B23EA235BD}|Calculator\\Calculator.csproj|solutionrelative:calculator\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Auth.axaml",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\Views\\Auth.axaml",
-              "RelativeDocumentMoniker": "Calculator\\Views\\Auth.axaml",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\Views\\Auth.axaml",
-              "RelativeToolTip": "Calculator\\Views\\Auth.axaml",
+              "Title": "Styles.axaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\Assets\\Styles.axaml",
+              "RelativeDocumentMoniker": "Calculator\\Assets\\Styles.axaml",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\Assets\\Styles.axaml",
+              "RelativeToolTip": "Calculator\\Assets\\Styles.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-19T10:43:08.133Z",
+              "WhenOpened": "2024-09-30T13:14:31.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\ViewModels\\AuthViewModel.cs",
-              "RelativeDocumentMoniker": "Calculator\\ViewModels\\AuthViewModel.cs",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\ViewModels\\AuthViewModel.cs*",
-              "RelativeToolTip": "Calculator\\ViewModels\\AuthViewModel.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:43:17.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "Calculator\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "Calculator\\Views\\MainWindow.axaml",
+              "Title": "Calculate.axaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\Views\\Calculate.axaml",
+              "RelativeDocumentMoniker": "Calculator\\Views\\Calculate.axaml",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\Views\\Calculate.axaml*",
+              "RelativeToolTip": "Calculator\\Views\\Calculate.axaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-19T10:39:56.162Z",
+              "WhenOpened": "2024-09-30T12:56:53.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Calculator\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\Calculator\\Calculator\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Calculator\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Title": "Auth.axaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\Views\\Auth.axaml",
+              "RelativeDocumentMoniker": "Calculator\\Views\\Auth.axaml",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\Views\\Auth.axaml",
+              "RelativeToolTip": "Calculator\\Views\\Auth.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-30T12:54:13.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\ViewModels\\AuthViewModel.cs",
+              "RelativeDocumentMoniker": "Calculator\\ViewModels\\AuthViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\ViewModels\\AuthViewModel.cs",
+              "RelativeToolTip": "Calculator\\ViewModels\\AuthViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:39:54.123Z",
+              "WhenOpened": "2024-09-30T12:32:42.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\ViewModels\\CalculateViewModel.cs",
+              "RelativeDocumentMoniker": "Calculator\\ViewModels\\CalculateViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\ViewModels\\CalculateViewModel.cs",
+              "RelativeToolTip": "Calculator\\ViewModels\\CalculateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:32:35.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Calculator\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\CalculateMVVM\\Calculator\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Calculator\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:28:34.532Z",
               "EditorCaption": ""
             }
           ]

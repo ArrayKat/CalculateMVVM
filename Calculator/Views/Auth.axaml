@@ -22,7 +22,7 @@
 		</StackPanel>
 		<UserControl IsVisible="{Binding AuthVM.IsVisibleInputField}" Content="{Binding AuthVM.Capcha}"></UserControl>
 		<TextBox IsVisible="{Binding AuthVM.IsVisibleInputField}" Text="{Binding AuthVM.TbCapcha}"></TextBox>
-		<Button IsEnabled="{Binding AuthVM.IsVisibleBtnAuth}" Command="{Binding AuthVM.CheckData}">Войти</Button>
+		<Button IsEnabled="{Binding AuthVM.IsVisibleBtnAuth}" Command="{Binding ToCalculateView}">Войти</Button>
 	</StackPanel>
 	
 </UserControl>

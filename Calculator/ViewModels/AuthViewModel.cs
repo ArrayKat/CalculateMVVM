@@ -50,23 +50,21 @@ namespace Calculator.ViewModels
            
         }
         
-        public async void CheckData() {
+        public  bool CheckData() {
             IsVisibleBtnAuth = true;
             if (CountCheckData == 0)
             {
                 if (Password == AuthModels.truePassword && Login == AuthModels.trueLogin)
                 {
-                    await MessageBoxManager.GetMessageBoxStandard("Сообщение", "Вы успешно авторизовались!", ButtonEnum.Ok).ShowAsync();
-
+                    return true;
                 }
-                else
-                {
-                    await MessageBoxManager.GetMessageBoxStandard("Сообщение", "Не верно введен логин или пароль!", ButtonEnum.Ok).ShowAsync();
+                else { 
                     Password = "";
                     Login = "";
                     IsVisibleInputField = true;
                     CreateCapcha();
                     CountCheckData++;
+                    return false;
                 }
             }
             else if (CountCheckData >= 1)
@@ -74,20 +72,20 @@ namespace Calculator.ViewModels
                 IsVisibleInputField = true;
                 if (Password == AuthModels.truePassword && Login == AuthModels.trueLogin && TbCapcha == StrCapchaGererated)
                 {
-                    await MessageBoxManager.GetMessageBoxStandard("Сообщение", "Вы успешно авторизовались!", ButtonEnum.Ok).ShowAsync();
+                    return true;
                 }
                 else
                 {
-                    await MessageBoxManager.GetMessageBoxStandard("Сообщение", "Не верно введен логин или пароль!", ButtonEnum.Ok).ShowAsync();
                     CountCheckData++;
                     IsVisibleInputField = false;
                     IsVisibleBtnAuth = false;
                     timer.Start();
+                    return false;
                 }
 
             }
-            
-            
+            return false;
+
         }
         public void CreateCapcha() {
             Random rnd = new Random();

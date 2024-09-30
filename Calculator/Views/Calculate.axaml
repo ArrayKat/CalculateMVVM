@@ -4,5 +4,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Calculator.Calculate">
-  Welcome to Avalonia!
+
+
+	<StackPanel>
+		<TextBlock>Добро пожаловать в калькулятор!</TextBlock>
+		<TextBlock>Введите арифметическую операцию: </TextBlock>
+		<StackPanel Orientation="Horizontal">
+			<TextBox Height="20" Width="160" Margin="10"></TextBox>
+			<ComboBox Margin="10"/>
+			<TextBox Height="20" Width="160" Margin="10"></TextBox>
+		</StackPanel>
+		<Button>Расчитать</Button>
+		<TextBlock>Результат: </TextBlock>
+	</StackPanel>
+	
+	
+	
 </UserControl>
