@@ -3,19 +3,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Calculator.Calculate">
+             x:Class="Calculator.Calculate"
+			 x:DataType="vm:MainWindowViewModel"
+			 xmlns:vm="using:Calculator.ViewModels"
+			 >
 
 
 	<StackPanel>
-		<TextBlock>Добро пожаловать в калькулятор!</TextBlock>
-		<TextBlock>Введите арифметическую операцию: </TextBlock>
-		<StackPanel Orientation="Horizontal">
-			<TextBox Height="20" Width="160" Margin="10"></TextBox>
-			<ComboBox Margin="10"/>
-			<TextBox Height="20" Width="160" Margin="10"></TextBox>
-		</StackPanel>
-		<Button>Расчитать</Button>
-		<TextBlock>Результат: </TextBlock>
+		<Border BorderThickness="5" Margin="25" BorderBrush="#6C89E5" CornerRadius="10">
+			<StackPanel Margin="20">
+				<TextBlock FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Text="Калькулятор"/>
+				<TextBlock Margin="10" Text="Выберите операцию:"/>
+				<ComboBox Name="cm" Margin="10" ItemsSource="{Binding CalculateVM.Operation}" SelectedValue="{Binding CalculateVM.SelectedValue}" />
+				<StackPanel Orientation="Horizontal">
+					<TextBox Height="20" Width="160" Margin="10" Text="{Binding CalculateVM.Number1}"/>
+					<TextBlock Margin="20" Text="{Binding CalculateVM.OperationSymb}"/>
+					
+					<TextBox Height="20" Width="160" Margin="10" Text="{Binding CalculateVM.Number2}"/>
+				</StackPanel>
+				<Button Margin="10" Command="{Binding CalculateVM.Calculate}">Расчитать</Button>
+				<TextBlock Margin="10" Text="Результат:" />
+				<TextBlock Margin="10" Text="{Binding CalculateVM.Result}"> </TextBlock>
+			</StackPanel>
+			
+		</Border>
+		
 	</StackPanel>
 	
 	
